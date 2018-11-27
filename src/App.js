@@ -9,7 +9,7 @@ class App extends Component {
       <div>
         <Header />
         <Router />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
