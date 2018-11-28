@@ -14,6 +14,11 @@ const theme = createMuiTheme({
         error: red,
         constrastThreshold: 3,
         tonalOffset: 0.2
+    },
+    flex: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
     }
 })
 

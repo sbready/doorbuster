@@ -7,6 +7,7 @@ const MegaDoorbusters = lazy(() => import('./Components/Pages/MegaDoorbusters'))
 const FortyPercent = lazy(() => import('./Components/Pages/FortyPercent'));
 const ThirtyPercent = lazy(() => import('./Components/Pages/ThirtyPercent'));
 const TwentyPercent = lazy(() => import ('./Components/Pages/TwentyPercent'));
+const UnderTwentyPercent = lazy(() => import ('./Components/Pages/UnderTwentyPercent'));
 const CategoryPage = lazy(() => import('./Components/Pages/CategoryPage'));
 
 const Router = () => (
@@ -17,6 +18,7 @@ const Router = () => (
             <Route path='/forty-percent' component={FortyPercent} />
             <Route path='/thirty-percent' component={ThirtyPercent} />
             <Route path='/twenty-percent' component={TwentyPercent} />
+            <Route path='/under-twenty-percent' component={UnderTwentyPercent} />
             <Route path='/(electronics|furniture|outdoors|apparel)/' component={CategoryPage} />
         </Switch>
     </Suspense>

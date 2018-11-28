@@ -1,8 +1,11 @@
 import React from 'react';
+import NavOption from './NavOption';
 
 const NavBar = () => {
     return (
-        <div>NavBar</div>
+        <div>
+            <NavOption />
+        </div>
     )
 };
 
